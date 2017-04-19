@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let tapGr = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
-//        view.addGestureRecognizer(tapGr)
+        let tapGr = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
+        view.addGestureRecognizer(tapGr)
     }
 
     override func didReceiveMemoryWarning() {
