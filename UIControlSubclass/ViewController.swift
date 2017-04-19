@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        let tapGr = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
+//        view.addGestureRecognizer(tapGr)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func handleTapGesture() {
+        print("superview's tap gesture called")
+    }
 }
 
