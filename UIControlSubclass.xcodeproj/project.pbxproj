@@ -12,7 +12,7 @@
 		67104A571EA74DE400CCB0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67104A551EA74DE400CCB0B6 /* Main.storyboard */; };
 		67104A591EA74DE400CCB0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67104A581EA74DE400CCB0B6 /* Assets.xcassets */; };
 		67104A5C1EA74DE400CCB0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67104A5A1EA74DE400CCB0B6 /* LaunchScreen.storyboard */; };
-		67104A641EA74E0000CCB0B6 /* SevenSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67104A631EA74E0000CCB0B6 /* SevenSwitch.swift */; };
+		67104A661EA7526C00CCB0B6 /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67104A651EA7526C00CCB0B6 /* CustomControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		67104A581EA74DE400CCB0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67104A5B1EA74DE400CCB0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67104A5D1EA74DE400CCB0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67104A631EA74E0000CCB0B6 /* SevenSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSwitch.swift; sourceTree = "<group>"; };
+		67104A651EA7526C00CCB0B6 /* CustomControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				67104A581EA74DE400CCB0B6 /* Assets.xcassets */,
 				67104A5A1EA74DE400CCB0B6 /* LaunchScreen.storyboard */,
 				67104A5D1EA74DE400CCB0B6 /* Info.plist */,
-				67104A631EA74E0000CCB0B6 /* SevenSwitch.swift */,
+				67104A651EA7526C00CCB0B6 /* CustomControl.swift */,
 			);
 			path = UIControlSubclass;
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67104A641EA74E0000CCB0B6 /* SevenSwitch.swift in Sources */,
 				67104A541EA74DE400CCB0B6 /* ViewController.swift in Sources */,
+				67104A661EA7526C00CCB0B6 /* CustomControl.swift in Sources */,
 				67104A521EA74DE400CCB0B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
